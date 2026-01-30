@@ -1,0 +1,138 @@
+[
+  {
+    "id": 1,
+    "name": "KD 18 'International Blue'",
+    "brand": "Nike",
+    "image": "https://dunkshop.rs/media/catalog/product/cache/368f87f182a84e40d4285889302f4ddb/n/i/nike-kd-18-international-blue-ib6684-400.jpg",
+    "oldPrice": 230,
+    "price": 190
+  },
+  {
+    "id": 2,
+    "name": "SHAI 001 'Ares Grey'",
+    "brand": "Converse",
+    "image": "https://dunkshop.rs/media/catalog/product/cache/368f87f182a84e40d4285889302f4ddb/c/o/converse-shai-001-ares-grey-a19837c.jpg",
+    "oldPrice": 210,
+    "price": 170
+  },
+  {
+    "id": 3,
+    "name": "Kobe 9 Elite Low Protro 'Perspective'",
+    "brand": "Nike",
+    "image": "https://dunkshop.rs/media/catalog/product/cache/368f87f182a84e40d4285889302f4ddb/n/i/nike-kobe-9-elite-low-protro-perspective-io3673-400.jpg",
+    "oldPrice": 300,
+    "price": 250
+  },
+  {
+    "id": 4,
+    "name": "G.T. Cut 3 Turbo 'Dallas Mavericks Wings'",
+    "brand": "Nike",
+    "image": "https://dunkshop.rs/media/catalog/product/cache/368f87f182a84e40d4285889302f4ddb/n/i/nike-g_t-cut-3-turbo-dallas-mavericks-wings-hv9918-301.jpg",
+    "oldPrice": 220,
+    "price": 185
+  },
+  {
+    "id": 5,
+    "name": "WMNS Sabrina 3 'Gamer'",
+    "brand": "Nike",
+    "image": "https://dunkshop.rs/media/catalog/product/cache/368f87f182a84e40d4285889302f4ddb/n/i/nike-wmns-sabrina-3-gamer-ii3985-300.jpg",
+    "oldPrice": 190,
+    "price": 155
+  },
+  {
+    "id": 6,
+    "name": "Giannis Freak 7 'Bred For It'",
+    "brand": "Nike",
+    "image": "https://dunkshop.rs/media/catalog/product/cache/368f87f182a84e40d4285889302f4ddb/n/i/nike-giannis-freak-7-bred-for-it-hf3450-600.jpg",
+    "oldPrice": 200,
+    "price": 165
+  },
+  {
+    "id": 7,
+    "name": "KD 18 'Aunt Pearl'",
+    "brand": "Nike",
+    "image": "https://dunkshop.rs/media/catalog/product/cache/368f87f182a84e40d4285889302f4ddb/n/i/nike-kd-18-aunt-pearl-hv1997-600.jpg",
+    "oldPrice": 240,
+    "price": 200
+  },
+  {
+    "id": 8,
+    "name": "Harden Vol. 9 'Snakeskin'",
+    "brand": "Adidas",
+    "image": "https://dunkshop.rs/media/catalog/product/cache/368f87f182a84e40d4285889302f4ddb/a/d/adidas-harden-vol-9-snakeskin-jr8289.jpg",
+    "oldPrice": 210,
+    "price": 175
+  },
+  {
+    "id": 9,
+    "name": "Victor Wembanyama x Nike GT Hustle 3 'Dusty Cactus'",
+    "brand": "Nike",
+    "image": "https://dunkshop.rs/media/catalog/product/cache/368f87f182a84e40d4285889302f4ddb/v/i/victor-wembanyama-x-nike-gt-hustle-3-dusty-cactus-if2520-300.jpg",
+    "oldPrice": 230,
+    "price": 190
+  },
+  {
+    "id": 10,
+    "name": "Luka 4 'Gone Fishing'",
+    "brand": "Jordan",
+    "image": "https://dunkshop.rs/media/catalog/product/cache/368f87f182a84e40d4285889302f4ddb/j/o/jordan-luka-4-gone-fishing-ib7903-600.jpg",
+    "oldPrice": 195,
+    "price": 160
+  },
+  {
+    "id": 11,
+    "name": "Tatum 4 'Green Glow' (GS)",
+    "brand": "Jordan",
+    "image": "https://dunkshop.rs/media/catalog/product/cache/368f87f182a84e40d4285889302f4ddb/j/o/jordan-tatum-4-green-glow-gs-hq4611-300.jpg",
+    "oldPrice": 170,
+    "price": 140
+  },
+  {
+    "id": 12,
+    "name": "Zion 4 'Voodoo'",
+    "brand": "Jordan",
+    "image": "https://dunkshop.rs/media/catalog/product/cache/368f87f182a84e40d4285889302f4ddb/j/o/jordan-zion-4-voodoo-fb1803-200.jpg",
+    "oldPrice": 180,
+    "price": 145
+  },
+  {
+    "id": 13,
+    "name": "Tatum 3 'Tie Dye'",
+    "brand": "Jordan",
+    "image": "https://dunkshop.rs/media/catalog/product/cache/368f87f182a84e40d4285889302f4ddb/j/o/jordan-tatum-3-tie-dye-fz6598-400.jpg",
+    "oldPrice": 175,
+    "price": 145
+  },
+  {
+    "id": 14,
+    "name": "Luka .77 'Bright Mango'",
+    "brand": "Jordan",
+    "image": "https://dunkshop.rs/media/catalog/product/cache/368f87f182a84e40d4285889302f4ddb/j/o/jordan-luka_77-bright-mango-hf0806-800.jpg",
+    "oldPrice": 160,
+    "price": 130
+  },
+  {
+    "id": 15,
+    "name": "Zion 3 'Half Blue'",
+    "brand": "Jordan",
+    "image": "https://dunkshop.rs/media/catalog/product/cache/368f87f182a84e40d4285889302f4ddb/a/i/air-jordan-zion-3-half-blue-dr0675-400.jpeg",
+    "oldPrice": 170,
+    "price": 140
+  },
+  {
+    "id": 16,
+    "name": "Tatum 3 '6th Man'",
+    "brand": "Jordan",
+    "image": "https://dunkshop.rs/media/catalog/product/cache/368f87f182a84e40d4285889302f4ddb/j/o/jordan-tatum-3-6th-man-hv5884-300.jpg",
+    "oldPrice": 175,
+    "price": 145
+  },
+  {
+    "id": 17,
+    "name": "Luka .77 'Back To School'",
+    "brand": "Jordan",
+    "image": "https://dunkshop.rs/media/catalog/product/cache/368f87f182a84e40d4285889302f4ddb/j/o/jordan-luka-77-back-to-school-hf0806-100.jpg",
+    "oldPrice": 160,
+    "price": 130
+  }
+]
