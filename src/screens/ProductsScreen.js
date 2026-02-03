@@ -1,52 +1,49 @@
-import { View, Text, FlatList, StyleSheet, Image, Pressable } from "react-native";
+import {
+  View,
+  Text,
+  FlatList,
+  StyleSheet,
+  Image,
+  Pressable,
+} from "react-native";
 import { useState } from "react";
+import { useNavigation } from "@react-navigation/native";
+
 import Header from "../components/Header";
+import Footer from "../components/Footer";
 import PRODUCTS from "../data/products.json";
 
-const BRANDS = ["All", "Nike", "Jordan", "Adidas", "Converse"];
+const BRANDS = ["All", "Nike", "Adidas", "Jordan", "Converse"];
 
-const ProductsScreen = () => {
+export default function ProductsScreen() {
+  const navigation = useNavigation();
   const [selectedBrand, setSelectedBrand] = useState("All");
 
   const filteredProducts =
     selectedBrand === "All"
       ? PRODUCTS
-      : PRODUCTS.filter((item) => item.brand === selectedBrand);
-
-  const renderItem = ({ item }) => (
-    <View style={styles.card}>
-      <Image source={{ uri: item.image }} style={styles.image} />
-
-      <Text style={styles.name} numberOfLines={2}>
-        {item.name}
-      </Text>
-
-      <View style={styles.priceRow}>
-        <Text style={styles.oldPrice}>${item.oldPrice}</Text>
-        <Text style={styles.price}>${item.price}</Text>
-      </View>
-    </View>
-  );
+      : PRODUCTS.filter((p) => p.brand === selectedBrand);
 
   return (
-    <View style={{ flex: 1 }}>
+    <View style={styles.container}>
+    
       <Header title="ALLEY-OOP" />
 
-      {/* FILTER */}
-      <View style={styles.filterRow}>
+     
+      <View style={styles.filterContainer}>
         {BRANDS.map((brand) => (
           <Pressable
             key={brand}
             onPress={() => setSelectedBrand(brand)}
             style={[
               styles.filterBtn,
-              selectedBrand === brand && styles.activeFilter,
+              selectedBrand === brand && styles.filterBtnActive,
             ]}
           >
             <Text
               style={[
                 styles.filterText,
-                selectedBrand === brand && styles.activeFilterText,
+                selectedBrand === brand && styles.filterTextActive,
               ]}
             >
               {brand}
@@ -55,81 +52,106 @@ const ProductsScreen = () => {
         ))}
       </View>
 
-      {/* PRODUCTS GRID */}
+     
       <FlatList
         data={filteredProducts}
-        keyExtractor={(item) => item.id.toString()}
-        renderItem={renderItem}
         numColumns={2}
-        columnWrapperStyle={{ justifyContent: "space-between" }}
-        contentContainerStyle={styles.list}
-        showsVerticalScrollIndicator={false}
+        keyExtractor={(item) => item.id.toString()}
+        columnWrapperStyle={styles.row}
+        renderItem={({ item }) => (
+          <Pressable
+            style={styles.card}
+            onPress={() =>
+              navigation.navigate("ProductDetails", { product: item })
+            }
+          >
+            <Image source={{ uri: item.image }} style={styles.image} />
+
+            <Text style={styles.name}>{item.name}</Text>
+
+            <View style={styles.priceRow}>
+              <Text style={styles.oldPrice}>€{item.oldPrice}</Text>
+              <Text style={styles.price}>€{item.price}</Text>
+            </View>
+          </Pressable>
+        )}
+        ListFooterComponent={
+          <Footer />  
+        }
       />
     </View>
   );
-};
-
-export default ProductsScreen;
+}
 
 const styles = StyleSheet.create({
-  list: {
-    padding: 16,
+  container: {
+    flex: 1,
+    backgroundColor: "#fff",
   },
 
-  /* FILTER */
-  filterRow: {
+  filterContainer: {
     flexDirection: "row",
-    justifyContent: "center",
     flexWrap: "wrap",
-    paddingVertical: 10,
     gap: 10,
+    padding: 12,
   },
   filterBtn: {
-    paddingHorizontal: 14,
-    paddingVertical: 6,
     borderWidth: 1,
     borderColor: "#000",
+    paddingVertical: 6,
+    paddingHorizontal: 14,
     borderRadius: 20,
   },
-  activeFilter: {
+  filterBtnActive: {
     backgroundColor: "#000",
   },
   filterText: {
-    fontSize: 14,
     color: "#000",
+    fontWeight: "bold",
   },
-  activeFilterText: {
+  filterTextActive: {
     color: "#fff",
   },
 
-  /* CARD */
-  card: {
-    width: "48%",
-    marginBottom: 20,
+
+  row: {
+    paddingHorizontal: 10,
   },
+
+
+  card: {
+    flex: 1,
+    margin: 8,
+    borderWidth: 1,
+    borderColor: "#eee",
+    borderRadius: 10,
+    padding: 10,
+  },
+
   image: {
     width: "100%",
-    height: 150,
+    height: 140,
     resizeMode: "contain",
-    marginBottom: 8,
   },
+
   name: {
+    fontWeight: "bold",
     fontSize: 14,
-    fontWeight: "600",
-    marginBottom: 4,
+    marginTop: 8,
   },
+
   priceRow: {
     flexDirection: "row",
-    alignItems: "center",
     gap: 8,
+    marginTop: 4,
   },
+
   oldPrice: {
     textDecorationLine: "line-through",
-    color: "#888",
-    fontSize: 13,
+    color: "#999",
   },
+
   price: {
-    fontSize: 15,
     fontWeight: "bold",
   },
 });

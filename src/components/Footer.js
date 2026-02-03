@@ -7,7 +7,7 @@ const Footer = () => {
 
   return (
     <View style={styles.footer}>
-      {/* SOCIAL ICONS */}
+
       <View style={styles.socials}>
         <Pressable style={styles.icon}>
           <FontAwesome name="instagram" size={22} color="#fff" />
@@ -26,14 +26,14 @@ const Footer = () => {
         </Pressable>
       </View>
 
-      {/* FOOTER NAV */}
+
       <View style={styles.nav}>
         <Pressable onPress={() => navigation.navigate("Home")}>
           <Text style={styles.navText}>Home</Text>
         </Pressable>
 
         <Pressable onPress={() => navigation.navigate("Products")}>
-          <Text style={styles.navText}>Sneakers</Text>
+          <Text style={styles.navText}>Shop</Text>
         </Pressable>
 
         <Pressable onPress={() => navigation.navigate("About")}>
@@ -56,6 +56,7 @@ export default Footer;
 
 const styles = StyleSheet.create({
   footer: {
+    width: "100%",          
     backgroundColor: "#000",
     paddingVertical: 28,
     paddingHorizontal: 16,
@@ -77,6 +78,7 @@ const styles = StyleSheet.create({
     color: "#ccc",
     marginHorizontal: 12,
     fontSize: 14,
+    fontWeight: "600",
   },
   copy: {
     color: "#666",

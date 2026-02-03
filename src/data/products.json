@@ -134,5 +134,126 @@
     "image": "https://dunkshop.rs/media/catalog/product/cache/368f87f182a84e40d4285889302f4ddb/j/o/jordan-luka-77-back-to-school-hf0806-100.jpg",
     "oldPrice": 160,
     "price": 130
+  },
+
+  {
+    "id": 18,
+    "name": "KD 18 'B.A.D'",
+    "brand": "Nike",
+    "image": "https://dunkshop.rs/media/catalog/product/cache/368f87f182a84e40d4285889302f4ddb/n/i/nike-kd-18-b_a_d-hv1992-501.jpg",
+    "oldPrice": 210,
+    "price": 180
+  },
+  {
+    "id": 19,
+    "name": "Dame X 'Pink'",
+    "brand": "Adidas",
+    "image": "https://dunkshop.rs/media/catalog/product/cache/368f87f182a84e40d4285889302f4ddb/a/d/adidas-dame-x-pink-ki5996.jpg",
+    "oldPrice": 170,
+    "price": 140
+  },
+  {
+    "id": 20,
+    "name": "D.O.N. Issue 7 'Lucid Red'",
+    "brand": "Adidas",
+    "image": "https://dunkshop.rs/media/catalog/product/cache/368f87f182a84e40d4285889302f4ddb/a/d/adidas-d_o_n-issue-7-lucid-red--js1300.jpg",
+    "oldPrice": 180,
+    "price": 150
+  },
+  {
+    "id": 21,
+    "name": "Harden Vol. 9 'Dynamo'",
+    "brand": "Adidas",
+    "image": "https://dunkshop.rs/media/catalog/product/cache/368f87f182a84e40d4285889302f4ddb/h/a/harden-vol.-9-dynamo-js1305.jpg",
+    "oldPrice": 190,
+    "price": 160
+  },
+  {
+    "id": 22,
+    "name": "Harden Vol. 9 'Pure Ruby'",
+    "brand": "Adidas",
+    "image": "https://dunkshop.rs/media/catalog/product/cache/368f87f182a84e40d4285889302f4ddb/h/a/harden-vol.-9-pure-ruby-js1773.jpg",
+    "oldPrice": 190,
+    "price": 160
+  },
+  {
+    "id": 23,
+    "name": "Anthony Edwards 1 Low 'Preloved Lime'",
+    "brand": "Adidas",
+    "image": "https://dunkshop.rs/media/catalog/product/cache/368f87f182a84e40d4285889302f4ddb/a/n/anthony-edwards-1-low-preloved-lime-js1773.jpg",
+    "oldPrice": 180,
+    "price": 150
+  },
+  {
+    "id": 24,
+    "name": "Dame X 'Bucks'",
+    "brand": "Adidas",
+    "image": "https://dunkshop.rs/media/catalog/product/cache/368f87f182a84e40d4285889302f4ddb/a/d/adidas-dame-x-bucks-jr9943.jpg",
+    "oldPrice": 175,
+    "price": 145
+  },
+  {
+    "id": 25,
+    "name": "Dame X 'Stormtrooper'",
+    "brand": "Adidas",
+    "image": "https://dunkshop.rs/media/catalog/product/cache/368f87f182a84e40d4285889302f4ddb/d/a/dame-x-stormtrooper-jp6089.jpg",
+    "oldPrice": 175,
+    "price": 145
+  },
+  {
+    "id": 26,
+    "name": "ALL STAR BB SHIFT CX MID 'Natural Ivory'",
+    "brand": "Converse",
+    "image": "https://dunkshop.rs/media/catalog/product/cache/368f87f182a84e40d4285889302f4ddb/c/o/converse-all-star-bb-shift-cx-mid-natural-ivory-a10595c.jpg",
+    "oldPrice": 155,
+    "price": 130
+  },
+  {
+    "id": 27,
+    "name": "ALL STAR BB SHIFT CX MID 'White/Black'",
+    "brand": "Converse",
+    "image": "https://dunkshop.rs/media/catalog/product/cache/368f87f182a84e40d4285889302f4ddb/c/o/converse-all-star-bb-shift-cx-mid-white-black-a16684c.jpg",
+    "oldPrice": 155,
+    "price": 130
+  },
+  {
+    "id": 28,
+    "name": "SHAI 001 'Winter Red'",
+    "brand": "Converse",
+    "image": "https://dunkshop.rs/media/catalog/product/cache/368f87f182a84e40d4285889302f4ddb/c/o/converse-shai-001-winter-red-a18775c.jpg",
+    "oldPrice": 180,
+    "price": 150
+  },
+  {
+    "id": 29,
+    "name": "ALL STAR BB TRILLIANT CX 'Magic Flame'",
+    "brand": "Converse",
+    "image": "https://dunkshop.rs/media/catalog/product/cache/368f87f182a84e40d4285889302f4ddb/a/l/all-star-bb-trilliant-cx-magic-flame-converse-a04941c_1.jpg",
+    "oldPrice": 170,
+    "price": 140
+  },
+  {
+    "id": 30,
+    "name": "ALL STAR BB SHIFT CX 'Trick Or Treat'",
+    "brand": "Converse",
+    "image": "https://dunkshop.rs/media/catalog/product/cache/368f87f182a84e40d4285889302f4ddb/c/o/converse-all-star-bb-shift-cx-trick-or-treat-a09255c.jpg",
+    "oldPrice": 165,
+    "price": 135
+  },
+  {
+    "id": 31,
+    "name": "ALL STAR BB SHIFT CX 'White/Black/Apex Green'",
+    "brand": "Converse",
+    "image": "https://dunkshop.rs/media/catalog/product/cache/368f87f182a84e40d4285889302f4ddb/c/o/converse-all-star-bb-shift-cx-white-black-apex_green-a08648c.jpg",
+    "oldPrice": 165,
+    "price": 135
+  },
+  {
+    "id": 32,
+    "name": "ALL STAR BB SHIFT CX 'Yellow Astrodust'",
+    "brand": "Converse",
+    "image": "https://dunkshop.rs/media/catalog/product/cache/368f87f182a84e40d4285889302f4ddb/c/o/converse-all-star-bb-shift-cx-yellow-astrodust-a08647c.jpg",
+    "oldPrice": 165,
+    "price": 135
   }
 ]

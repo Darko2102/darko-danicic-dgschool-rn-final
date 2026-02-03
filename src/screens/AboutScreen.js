@@ -10,7 +10,7 @@ const AboutScreen = ({ navigation }) => {
     >
       <Header title="ALLEY-OOP" />
 
-      {/* CONTENT */}
+    
       <View style={styles.content}>
         <Text style={styles.title}>About ALLEY-OOP</Text>
 
@@ -38,7 +38,7 @@ const AboutScreen = ({ navigation }) => {
         </Text>
       </View>
 
-      {/* FOOTER */}
+
       <View style={{ marginTop: "auto" }}>
         <Footer />
 

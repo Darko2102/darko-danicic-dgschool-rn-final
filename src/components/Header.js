@@ -6,10 +6,10 @@ const Header = ({ title = "ALLEY-OOP" }) => {
 
   return (
     <View style={styles.header}>
-      {/* LEFT */}
+
       <Text style={styles.title}>{title}</Text>
 
-      {/* CENTER NAV */}
+    
       <View style={styles.nav}>
         <TouchableOpacity onPress={() => navigation.navigate("Home")}>
           <Text style={styles.navItem}>Home</Text>
@@ -25,7 +25,7 @@ const Header = ({ title = "ALLEY-OOP" }) => {
 
       </View>
 
-      {/* RIGHT */}
+ 
       <TouchableOpacity onPress={() => navigation.navigate("Cart")}>
         <Text style={styles.cart}>Cart</Text>
       </TouchableOpacity>
@@ -39,7 +39,7 @@ export default Header;
 const styles = StyleSheet.create({
   header: {
     height: 60,
-    paddingTop: 30,   // ⬅⬅ OVO DODAJE RAZMAK OD VRHA
+    paddingTop: 30,   
     paddingHorizontal: 16,
     backgroundColor: "#fff",
     flexDirection: "row",
