@@ -55,7 +55,7 @@ const CartScreen = () => {
         {!purchased && cartItems.length === 0 && (
           <View style={styles.centerBox}>
             <Text style={styles.emptyText}>
-              Your cart is empty 🏀
+              Your cart is empty 
             </Text>
           </View>
 )}
